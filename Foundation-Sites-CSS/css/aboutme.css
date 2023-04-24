@@ -1,0 +1,98 @@
+*{
+    padding:0;
+    margin:0;
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+
+#bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-left:10%;
+    padding-right:10%;
+    background-color: #08080a;
+    opacity: 0.5;
+    transition:0.4s;
+}
+
+#bar:hover{
+    opacity: 1.0;
+    transition:0.4s;
+}
+
+.logo{
+    color: white;
+    font-size:28px;
+}
+span{
+    color:hotpink;
+}
+
+nav ul li{
+     list-style-type: none;
+     display: inline-block;
+     padding: 10px 20px;
+}
+
+nav ul li a {
+    color:white;
+    text-decoration: none;
+    font-weight: bold;
+    transition:.3s;
+}
+nav ul li a:hover{
+    color: hotpink;
+    transition:.3s;
+}
+
+#hamburger{
+    width:50px;
+    height:50px;
+    cursor:pointer;
+    display:none;
+}
+
+#hamburger span{
+    display:block;
+    height:2px;
+    background-color:white;
+    margin:10px;
+}
+
+#aboutme{
+    height:200px;
+    width:60%;
+    background-color: green;
+    float:left;
+}
+
+#image{
+    width:40%;
+    background-color: blueviolet;
+    float:left;
+}
+
+#image img{
+    width:50%;
+    margin:20px;
+    margin-left:30%;
+    border: 3px solid #bb60a0;
+}
+
+@media screen and (max-width: 1000px) {
+    #hamburger{
+        display:block;
+        position: absolute;
+        top: 0;
+        right: 50px;
+    }
+    #bar{
+        display: block;
+    }
+    #text li {
+        display: block;
+        text-align: right;
+        padding-right:0;
+    }}

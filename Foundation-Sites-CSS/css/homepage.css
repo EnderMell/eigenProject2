@@ -150,6 +150,23 @@ footer{
     margin:10px;
 }
 
+.kopje p{
+    text-align: center;
+    margin:10px;
+    font-size: 20px;
+}
+
+.kopje a{
+    text-decoration: none;
+    color:#602c50;
+    transition:0.3s
+}
+
+.kopje a:hover{
+    color:#bb60a0;
+    transition:0.3s
+}
+
 
 @media screen and (max-width: 1000px) {
     #hamburger{
