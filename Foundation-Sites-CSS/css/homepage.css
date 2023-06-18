@@ -169,6 +169,7 @@ footer{
 
 
 @media screen and (max-width: 1000px) {
+
     #hamburger{
         display:block;
         position: absolute;
@@ -203,4 +204,26 @@ footer{
         display:flex;
         flex-direction: column;
     }
+
+    .kopje{
+        margin:50px auto;
+        height:400px;
+        width:500px;
+        background-color: #ffbaea;
+    }
+
+    .circle{
+        margin:10px auto;
+        height:100px;
+        width:100px;
+        background-color: white;
+        border-radius: 50%;
+    }
+    
+    .circle img{
+        position: relative;
+        height:70px;
+        margin:15px;
+    }
 }
+
